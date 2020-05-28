@@ -1,0 +1,73 @@
+*{
+   margin: 0;
+}
+
+div {
+   margin: 5px;
+   background-color: white;
+}
+
+body{
+   background-color: whitesmoke;
+}
+
+.center{
+   width: 70vw;
+   margin: 0 auto;
+}
+.input-text {
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   background: #ffffff !important; 
+   outline: none; 
+   height: 24px; 
+   width: 120px; 
+   color: #000; 
+   font-size: 11px;
+   font-family: Tahoma;
+}
+.input-number{
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   background: #ffffff !important; 
+   outline: none; 
+   height: 24px; 
+   width: 120px; 
+   color: #000; 
+   font-size: 11px;
+   font-family: Tahoma;
+}
+
+.text-group{
+   display: inline-block;
+}
+
+.input-group{
+   display: inline-block;
+}
+
+
+.btn{
+   height: 24px;
+ 
+   color: white;
+   border-radius: 10px; 
+}
+
+.save{
+   background-color: green;
+   border: green 1px solid;
+}
+
+.look, .change{
+   background-color: rgb(150, 150, 13);
+   border: rgb(150, 150, 13) 1px solid;
+}
+
+.remove{
+   background-color: red;
+   border: red 1px solid;
+}
+
+
+

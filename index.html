@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Шестая лаба</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form method="post" action="buttons.php">
+		<div class="center">
+			<div class = "input-group">
+				<input class = "input-number" type="number" name="book[id]"><br>	
+			</div>
+			<div class="text-group">
+				<p>Id</p>
+			</div>
+			<br>
+			<div class = "input-group">
+				<input class = "input-text" type="text" name="book[author]">
+			</div>
+			<div class="text-group">
+				<p>Автор</p>
+			</div>
+			<br>
+			<div class = "input-group">
+				<input class = "input-text" type="text" name="book[bookname]">
+			</div>
+			<div class="text-group">
+				<p>Название книги</p>
+			</div>	
+			<br>
+			<div class = "input-group">
+				<input class = "input-text" type="text" name="book[abstractname]">
+			</div>
+			<div class="text-group">
+				<p>Аннотация</p>
+			</div>	
+			<br>
+			<div class = "input-group">
+				<input class = "input-text" type="text" name="book[isbn]">
+			</div>
+			<div class="text-group">
+				<p>ISBN - код</p>
+			</div>	
+			<br>
+			<div class = "input-group">
+				<input class = "input-text" type="text" name="book[review]">
+			</div>
+			<div class="text-group">
+				<p>Отзывы о книге</p>
+			</div>
+			<br>
+
+			
+
+		<input class = "btn save" type="submit" name="save_button"value="Сохранить">
+		<input  class = "btn change" type="submit" name="edit_button" value="Отредактировать(по ID)">
+		<input class = "btn look" type="submit" name="view_button" value="Просмотреть">
+		<input class = "btn remove" type="submit" name="del_button" value="Очистить БД">
+	</div>
+	</form>
+</body>
+</html>
